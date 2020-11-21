@@ -3,7 +3,7 @@ exercise 1 on OOP course.
 This exerecise is about undirectional **weighted graphs**.
 The task was to build an undirectional weighted graph with functions and algorithms.
 
-## 1. List of the files:
+# 1. List of the files:
 
 node_info - Interface.
 
@@ -21,9 +21,9 @@ WGraph_AlgoMyTest - Test for WGraph_Algo class.
 
 README.md - This file.
 
-## Data structures.
+# Data structures.
 
-**1.HashMap.**
+## 1.HashMap.
 
   This is the main Data structure i used. This Data structure have an easy way
   to save unique data for any kind of variables. HashMap has the best time comlexity
@@ -39,15 +39,17 @@ README.md - This file.
   
     I used HashMaps for any algorithm that i used.
   
-  **2. Queue.(linkedlist)**
+  ### 2. Queue.(linkedlist)
   
     I used this Data structure for functions on WGraph_Algo. It was the best way
     to deal with list of data and check about every one on the list.
     
 
-## Implementations.
-**1.WGraph_DS**
+# Implementations.
+
+## 1.WGraph_DS**
 The functions on this class:
+
 **Add**: add a new node to the graph and add it to "mygraph" HashMap.
 
 **Remove**: remove one node from the graph and remove all his edges with other nodes.
@@ -61,11 +63,14 @@ The functions on this class:
 
 **Remove_edge:** remove the connection between two nodes.
 
-**In addition** there is one more function that i wrote for the tests, it called: Equals.
+**In addition** there is one more function that i wrote for the tests, it called: 
+
+**Equals**.
 This function is check if 2 graphs are equal. It checks number of nodes and edges, if all the values are equal.
 This function "run over" the original Equals function.
 
-**2. "WGraph_Algo".** 
+## 2. "WGraph_Algo".** 
+
 The functions on this class:
 
 **Copy:** this function makes a deep copy of graph.
