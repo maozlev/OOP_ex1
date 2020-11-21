@@ -3,7 +3,7 @@ exercise 1 on OOP course.
 This exerecise is about undirectional **weighted graphs**.
 The task was to build an undirectional weighted graph with functions and algorithms.
 
-# 1. List of the files:
+## 1. List of the files:
 
 node_info - Interface.
 
@@ -21,33 +21,34 @@ WGraph_AlgoMyTest - Test for WGraph_Algo class.
 
 README.md - This file.
 
-# Data structures.
+## 2. Data structures.
 
-## 1.HashMap.
+### A.HashMap.
 
   This is the main Data structure i used. This Data structure have an easy way
   to save unique data for any kind of variables. HashMap has the best time comlexity
   from the Data structures i've looked.
   
-  **A.** On class Wgraph_DS I used 3 HashMaps:
+  **1.** On class Wgraph_DS I used 3 HashMaps:
   
     a. to keep keys as ints and nodes as an objects.
     b. to keep edges as a String and weights as a double.
     c. to keep nodes as int and there neighbors as a linkedhashset.
 
-  **B.** For Wgraph_Algo:
+  **2.** For Wgraph_Algo:
   
     I used HashMaps for any algorithm that i used.
   
-  ### 2. Queue.(linkedlist)
+  ### B. Queue.(linkedlist)
   
     I used this Data structure for functions on WGraph_Algo. It was the best way
     to deal with list of data and check about every one on the list.
     
 
-# Implementations.
+## Implementations.
 
-## 1.WGraph_DS**
+### 1.WGraph_DS**
+
 The functions on this class:
 
 **Add**: add a new node to the graph and add it to "mygraph" HashMap.
@@ -69,7 +70,7 @@ The functions on this class:
 This function is check if 2 graphs are equal. It checks number of nodes and edges, if all the values are equal.
 This function "run over" the original Equals function.
 
-## 2. "WGraph_Algo".** 
+### 2. "WGraph_Algo".** 
 
 The functions on this class:
 
@@ -85,7 +86,9 @@ The functions on this class:
 
 **Load:** load a saved graph to the program.
 
+
 ## Tests
+
 There are two tests one for class. need Junit5. 
 The tests checks the functions and algorithms and run time.
 
