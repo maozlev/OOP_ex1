@@ -47,7 +47,7 @@ README.md - This file.
 
 ## 3. Implementations.
 
-### A.WGraph_DS**
+### A.WGraph_DS
 
 The functions on this class:
 
@@ -70,9 +70,9 @@ The functions on this class:
 This function is check if 2 graphs are equal. It checks number of nodes and edges, if all the values are equal.
 This function "run over" the original Equals function.
 
-### B. "WGraph_Algo".** 
+### B. "WGraph_Algo". 
 
-The functions on this class:
+### The functions on this class:
 
 **Copy:** this function makes a deep copy of graph.
 
