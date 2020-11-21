@@ -28,13 +28,14 @@ README.md - This file.
   This is the main Data structure i used. This Data structure have an easy way
   to save unique data for any kind of variables. HashMap has the best time comlexity
   from the Data structures i've looked.
-  **A.**On class Wgraph_DS I used 3 HashMaps:
+  
+  **A.** On class Wgraph_DS I used 3 HashMaps:
   
     a. to keep keys as ints and nodes as an objects.
     b. to keep edges as a String and weights as a double.
     c. to keep nodes as int and there neighbors as a linkedhashset.
 
-  **B.**For Wgraph_Algo:
+  **B.** For Wgraph_Algo:
   
     I used HashMaps for any algorithm that i used.
   
