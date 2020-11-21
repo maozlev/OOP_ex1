@@ -45,9 +45,9 @@ README.md - This file.
     to deal with list of data and check about every one on the list.
     
 
-## Implementations.
+## 3. Implementations.
 
-### 1.WGraph_DS**
+### A.WGraph_DS**
 
 The functions on this class:
 
@@ -70,7 +70,7 @@ The functions on this class:
 This function is check if 2 graphs are equal. It checks number of nodes and edges, if all the values are equal.
 This function "run over" the original Equals function.
 
-### 2. "WGraph_Algo".** 
+### B. "WGraph_Algo".** 
 
 The functions on this class:
 
@@ -86,9 +86,26 @@ The functions on this class:
 
 **Load:** load a saved graph to the program.
 
+## 4. Algorithms
 
-## Tests
+### Dijkstra
 
-There are two tests one for class. need Junit5. 
+algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks.
+It was conceived by computer scientist Edsger W. Dijkstra in 1956 and published three years later.
+
+(https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+
+I used this algorithm on the functions: 
+
+**a.Shortest_Path_Dist** 
+
+**b.Shortest_Path**
+
+Both functions I made HashMap that keeps the parent of node (with the shortest way). The distance where kept in 
+the node "tag". On every node I did a comprarison between the actual distance
+
+## 5. Tests
+
+There are two tests one for class. I used ***Junit5***. 
 The tests checks the functions and algorithms and run time.
 
