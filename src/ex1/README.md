@@ -1,4 +1,4 @@
-# ex1_oop
+# OOP_ex1
 Exercise 1 on OOP course.
 This exerecise is about undirectional **weighted graphs**.
 The task was to build an undirectional weighted graph with functions and algorithms.
