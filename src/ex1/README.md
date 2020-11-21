@@ -102,7 +102,7 @@ I used this algorithm on the functions:
 **b.Shortest_Path**
 
 Both functions I made HashMap that keeps the parent of node (with the shortest way). The distance where kept in 
-the node "tag". On every node I did a comprarison between the actual distance
+the node "tag". On every node I did a comprarison between the actual distance to the tag.
 
 ## 5. Tests
 
