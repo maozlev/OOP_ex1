@@ -1,8 +1,5 @@
 package ex1.src;
 
-import java.io.*;
-import java.util.*;
-
 public class WGraph_Algo implements weighted_graph_algorithms {
 
     weighted_graph mygraph;
