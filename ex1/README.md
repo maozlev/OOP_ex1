@@ -1,4 +1,4 @@
-# ex1_oop
+# OOP_ex1
 Exercise 1 on OOP course.
 This exerecise is about undirectional **weighted graphs**.
 The task was to build an undirectional weighted graph with functions and algorithms.
@@ -47,7 +47,7 @@ README.md - This file.
 
 ## 3. Implementations.
 
-### A.WGraph_DS**
+### A.WGraph_DS
 
 The functions on this class:
 
@@ -70,9 +70,9 @@ The functions on this class:
 This function is check if 2 graphs are equal. It checks number of nodes and edges, if all the values are equal.
 This function "run over" the original Equals function.
 
-### B. "WGraph_Algo".** 
+### B. "WGraph_Algo". 
 
-The functions on this class:
+### The functions on this class:
 
 **Copy:** this function makes a deep copy of graph.
 
@@ -102,7 +102,7 @@ I used this algorithm on the functions:
 **b.Shortest_Path**
 
 Both functions I made HashMap that keeps the parent of node (with the shortest way). The distance where kept in 
-the node "tag". On every node I did a comprarison between the actual distance
+the node "tag". On every node I did a comprarison between the actual distance to the tag.
 
 ## 5. Tests
 
