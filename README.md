@@ -90,7 +90,7 @@ This function "run over" the original Equals function.
 
 ### Dijkstra
 
-algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks.
+Algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks.
 It was conceived by computer scientist Edsger W. Dijkstra in 1956 and published three years later.
 
 (https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
